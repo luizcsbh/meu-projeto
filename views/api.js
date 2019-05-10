@@ -67,16 +67,20 @@ router.delete('/produtos/:id', (req, res) => {
     if (qtDel == 0)
         res.end('O produto com identificador = '.concat(req.params.id.toString()).concat(' não encontrado!'));
     else if (qtDel == 1)
-        res.end('O produto com identificador = '.concat(req.params.id.toString()).concat(' foi deletado!'));
+        res.end('O produto com identificador = '.concat(req.params.id.toString()).concat(' foi removido!'));
     else if (qtDel > 1) {
-        res.end(qtDel.toString().concat(' produtos com identificadores = ').concat(req.params.id.toString()).concat(' foram deletados!'));
+        res.end(qtDel.toString().concat(' produtos com identificadores = ').concat(req.params.id.toString()).concat(' foram removidos!'));
     }
 });
 
 router.get('/produtos/list', function (req, res, next) {
 
     /*Teste com a inserção de produtos*/
-    //produtos.items.push({'id' : 1, 'name' : 'prato', 'description' : 'utensílo de cozinha'})
+    produtos.items.push({
+        'id': 1,
+        'name': 'prato',
+        'description': 'utensílo de cozinha'
+    })
     //produtos.items.push({'id' : 2, 'name' : 'panela de pressão', 'description' : 'utensílo para cozinhar'})
 
     res.json(produtos);
