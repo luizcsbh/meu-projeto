@@ -34,7 +34,7 @@ router.put('/produtos/:id', (req, res) => {
       "description":"update"
     }
     */
-    // atualização do item
+    // atualização do produto
     var update = false;
     for (var i = 0; i < produtos.items.length; i++) {
         if (produtos.items[i]) {
