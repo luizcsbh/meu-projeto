@@ -5,7 +5,7 @@ Disciplina: Programação web com Node.js
 Professor: Samuel Martins
 ## Exercício 2.1
 Passo 1: entre na documentação do express-generator
-[Express-generator](https://expressjs.com/pt-br/starter/generator.html)
+[Express-Generator](https://expressjs.com/pt-br/starter/generator.html)
 Passo 2: siga as instruções para instalar o express-generator globalmente:
 ```node
 npm i -g express-generator
