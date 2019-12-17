@@ -66,7 +66,7 @@ Para testar o exercício 2.2, utilize o POSTMAN
 
 ## Motivação
 
-Projeto PHP onde criada uma aplicação RESTful completa, será implementada uma API para entender a nuances do Framework Symfony e onde será feita a gestão dos "post" de um blog apresentado pelo Professor Tales Augusto [:email:](mailto:tales.augusto.santos@gmail.com?subject=[Github]%20Projeto%20Simphony%20Blog).
+Projeto em nodejs para fixação da disciplina de Programação web com Nodejs utilizando o framework express-generator para reforçar os conceitos abortado para construção de uma API
 
 ## Author
 
