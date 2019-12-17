@@ -49,6 +49,7 @@ endereço.
 
 Utilizando o conceito de APIs rest JSON, vamos fazer um CRUD de produtos, utilizando uma variável
 local.
+
 Passo 1: crie uma rota /api/products do tipo POST que irá receber no corpo da requisição os campos id ,
 name e description . Nessa mesma rota, insira os dados recebidos em uma variável local.
 
