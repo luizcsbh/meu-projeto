@@ -1,8 +1,18 @@
+[![issues](https://img.shields.io/github/issues/luizcsbh/server-nodejs)](https://github.com/luizcsbh/server-nodejs/issues)
+![forks](https://img.shields.io/github/forks/luizcsbh/server-nodejs)
+![stars](https://img.shields.io/github/stars/luizcsbh/server-nodejs)
+[![lincença](https://img.shields.io/github/license/luizcsbh/server-nodejs)](https://github.com/luizcsbh/server-nodejs/blob/master/LICENSE)
+![code-size](https://img.shields.io/github/languages/code-size/luizcsbh/server-nodejs)
+
 # meu-projeto
-Exercício de Nodes
+Exercício de Nodejs
+
 Curso: Desenvolvimento web Full Stack
-Disciplina: Programação web com Node.js
+
+Disciplina: Programação web com Nodejs
+
 Professor: Samuel Martins
+
 ## Exercício 2.1
 Passo 1: entre na documentação do express-generator
 [Express-Generator](https://expressjs.com/pt-br/starter/generator.html)
