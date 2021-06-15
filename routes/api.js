@@ -2,7 +2,18 @@ var express = require('express');
 var router = express.Router();
 
 let produtos = {
-    items: []
+    items: [
+        {
+            "id":1, 
+            "name":"Escova 1", 
+            "description":"escova para cabelos"
+        },      
+        {
+            "id":2, 
+            "name":"Escova 2", 
+            "description":"escova para dentes"
+        }
+    ]
 }
 
 router.post('/produtos', (req, res) => {
